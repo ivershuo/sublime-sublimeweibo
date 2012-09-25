@@ -1,0 +1,31 @@
+[
+	{
+ 		"id": "tools",
+ 		"children":
+ 			[
+ 				{
+					 "caption": "weibo",
+					 "id": "weibo",
+					 "command": "weibo",
+					 "children" :
+					 	[
+					 		{
+					 			"caption": "Access",
+					 			"id": "weibo-access",
+					 			"command": "weiboaccess"
+					 		},
+					 		{
+					 			"caption": "Send",
+					 			"id": "weibo-send",
+					 			"command": "weibosend"
+					 		},
+					 		{
+					 			"caption": "Friends's Timeline",
+					 			"id": "weibo-timeline",
+					 			"command": "weibogettimeline"
+					 		}
+					 	]
+ 				}
+ 			]
+ 	}
+]
