@@ -23,6 +23,11 @@
 					 			"caption": "Friends's Timeline",
 					 			"id": "weibo-timeline",
 					 			"command": "weibogettimeline"
+					 		},
+					 		{
+					 			"caption": "At me",
+					 			"id": "weibo-at-me",
+					 			"command": "weibogetatme"
 					 		}
 					 	]
  				}
