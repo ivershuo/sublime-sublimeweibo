@@ -6,5 +6,9 @@
 	{
 		"keys": ["ctrl+alt+x"],
 		"command": "weibogettimeline"
+	},
+	{
+		"keys": ["alt+z"],
+		"command": "weibogetatme"
 	}
 ]
