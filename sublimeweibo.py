@@ -27,7 +27,7 @@ class WeibosendCommand(sublime_plugin.WindowCommand):
 			sublime.error_message("140+")			
 
 	def on_change(self, text):
-		sublime.status_message(str(140 - len(text)))
+		sublime.status_message(str(140 - len(text)) + ' letters left.')
 
 class WeibogettimelineCommand(sublime_plugin.WindowCommand):
 	def run(self):
