@@ -33,7 +33,7 @@ class WeibosendCommand(sublime_plugin.WindowCommand):
 class WeibogettimelineCommand(sublime_plugin.WindowCommand):
 	def run(self):
 		statuses = wb.get_timlines(True)
-		if statuses != '{}':
+		if statuses and statuses != '{}':
 			show_in_file(statuses)
 
 class WeibogetatmeCommand(sublime_plugin.WindowCommand):
