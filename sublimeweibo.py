@@ -9,6 +9,7 @@ def show_in_file(text, syntax = 'Packages/JavaScript/JSON.tmLanguage'):
 		tmpview.set_syntax_file(syntax)
 	edit = tmpview.begin_edit()
 	tmpview.insert(edit, 0, text)
+	tmpview.set_read_only(True)
 	tmpview.end_edit()
 
 class WeiboaccessCommand(sublime_plugin.WindowCommand):
