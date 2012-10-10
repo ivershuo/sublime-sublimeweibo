@@ -20,14 +20,19 @@
 					 			"command": "weibosend"
 					 		},
 					 		{
-					 			"caption": "Friends's Timeline",
+					 			"caption": "Home Timeline",
 					 			"id": "weibo-timeline",
 					 			"command": "weibogettimeline"
 					 		},
 					 		{
-					 			"caption": "At me",
+					 			"caption": "@me",
 					 			"id": "weibo-at-me",
 					 			"command": "weibogetatme"
+					 		},
+					 		{
+					 			"caption": "Comments",
+					 			"id": "weibo-comments",
+					 			"command": "weibocomments"
 					 		}
 					 	]
  				}

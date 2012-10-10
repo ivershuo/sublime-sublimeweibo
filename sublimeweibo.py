@@ -41,3 +41,9 @@ class WeibogetatmeCommand(sublime_plugin.WindowCommand):
 		statuses = wb.get_at_me(True)
 		if statuses and statuses != '{}':
 			show_in_file(statuses)
+
+class WeibocommentsCommand(sublime_plugin.WindowCommand):
+	def run(self):
+		statuses = wb.get_to_me(True)
+		if statuses and statuses != '{}':
+			show_in_file(statuses)
